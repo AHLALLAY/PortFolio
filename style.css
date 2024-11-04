@@ -1,0 +1,32 @@
+:root {
+    --yellow: #ffd700;
+    --white: #ffffff;
+    --black: #0a0a0a;
+    --dark-gray: #1a1a1a;
+    --shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--black);
+    color: var(--yellow);
+    font-family: cursive;
+    line-height: 1.5;
+}
+
+/* Header */
+.logo {
+    font-size: xx-large;
+}
+
+.first {
+    background-color: var(--yellow);
+    border: 5px solid var(--black);
+    color: var(--black);
+}
+
+.second {}
